@@ -7,13 +7,13 @@ on:
   workflow_dispatch:
     inputs:
       server_url:
-        description: 'Server URL (e.g. https://your-site.com)'
+        description: 'Server URL (e.g. http://10.31.3.7:3000/)'
         required: true
-        default: 'https://ednovas.video'
+        default: 'http://10.31.3.7:3000/'
       app_name:
         description: 'App Name'
         required: true
-        default: 'E视界'
+        default: 'klejnotyTv'
       version_tag:
         description: 'Version Tag (e.g. v1.0.0)'
         required: true
